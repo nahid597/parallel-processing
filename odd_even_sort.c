@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
     MPI_Status status;
 
 
-    for(process = 0; process < number_process - 1; process++)
+    for(process = 0; process < number_process ; process++)
     {
         // even phase
         if(process % 2 == 0)
